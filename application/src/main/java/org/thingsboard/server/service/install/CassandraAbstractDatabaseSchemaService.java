@@ -29,7 +29,7 @@ import java.util.List;
 @Slf4j
 public abstract class CassandraAbstractDatabaseSchemaService implements DatabaseSchemaService {
 
-    private static final String CASSANDRA_DIR = "cassandra";
+    private static final String CASSANDRA_DIR = "src/main/data/cassandra";
     private static final String CASSANDRA_STANDARD_KEYSPACE = "thingsboard";
 
     @Autowired

@@ -171,7 +171,7 @@ public abstract class BaseTimeseriesServiceTest extends AbstractServiceTest {
 
     @Test
     public void testFindLatestOpt_givenSaveWithHistoricalNonOrderedTS() throws Exception {
-        if (databaseTsLatestType.equals("cassandra")) {
+        if (databaseTsLatestType.equals("src/main/data/cassandra")) {
             return;
         }
 

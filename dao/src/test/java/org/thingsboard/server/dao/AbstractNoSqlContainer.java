@@ -35,9 +35,9 @@ import java.util.List;
 public abstract class AbstractNoSqlContainer {
 
     public static final List<String> INIT_SCRIPTS = List.of(
-            "cassandra/schema-keyspace.cql",
-            "cassandra/schema-ts.cql",
-            "cassandra/schema-ts-latest.cql"
+            "src/main/data/cassandra/schema-keyspace.cql",
+            "src/main/data/cassandra/schema-ts.cql",
+            "src/main/data/cassandra/schema-ts-latest.cql"
     );
 
     @ClassRule(order = 0)

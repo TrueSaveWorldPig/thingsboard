@@ -178,7 +178,7 @@
         <module>dao</module>
         <module>edqs</module>
         <module>transport</module>
-        <module>ui-ngx</module>
+<!--        <module>ui-ngx</module>-->
         <module>tools</module>
         <module>application</module>
         <module>msa</module>
@@ -901,10 +901,10 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <plugin>
-                <groupId>com.mycila</groupId>
-                <artifactId>license-maven-plugin</artifactId>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.mycila</groupId>-->
+<!--                <artifactId>license-maven-plugin</artifactId>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
