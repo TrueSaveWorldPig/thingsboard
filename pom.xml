@@ -178,7 +178,7 @@
         <module>dao</module>
         <module>edqs</module>
         <module>transport</module>
-        <module>ui-ngx</module>
+<!--        <module>ui-ngx</module>-->
         <module>tools</module>
         <module>application</module>
         <module>msa</module>
@@ -1072,13 +1072,13 @@
                 <type>docker-info</type>
                 <scope>test</scope>
             </dependency>
-            <dependency>
-                <groupId>org.thingsboard.msa</groupId>
-                <artifactId>web-ui</artifactId>
-                <version>${project.version}</version>
-                <type>docker-info</type>
-                <scope>test</scope>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.thingsboard.msa</groupId>-->
+<!--                <artifactId>web-ui</artifactId>-->
+<!--                <version>${project.version}</version>-->
+<!--                <type>docker-info</type>-->
+<!--                <scope>test</scope>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.thingsboard.msa</groupId>
                 <artifactId>tb-node</artifactId>
