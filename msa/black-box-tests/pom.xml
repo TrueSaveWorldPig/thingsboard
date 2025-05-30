@@ -130,11 +130,11 @@
             <artifactId>js-executor</artifactId>
             <type>docker-info</type>
         </dependency>
-        <dependency>
-            <groupId>org.thingsboard.msa</groupId>
-            <artifactId>web-ui</artifactId>
-            <type>docker-info</type>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.thingsboard.msa</groupId>-->
+<!--            <artifactId>web-ui</artifactId>-->
+<!--            <type>docker-info</type>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.thingsboard.msa</groupId>
             <artifactId>tb-node</artifactId>
