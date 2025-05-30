@@ -30,6 +30,6 @@ jobs:
         password: ${{ secrets.DOCKER_HUB_TOKEN }}
     - name: Build with Maven
       run: |
-        mvn clean install -pl '!ui-ngx' -am -DskipTests -Ddockerfile.skip=false
+        mvn clean install -DskipTests -Ddockerfile.skip=false
     # - name: 构建镜像
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
